@@ -15,7 +15,7 @@ Cluster Template is used to manage the configuration of the Kubernetes cluster. 
 
 ### Flux Operator
 
-Flux Operator is used for GitOps-based deployment of applications and infrastructure changes to the cluster. It continuously monitors the Git repository for changes and automatically applies them to the cluster, ensuring that the cluster is always in sync with the desired state defined in Git. Flux Operator is an advancement of the original Flux tool, providing enhanced features and capabilities for managing Kubernetes clusters in a GitOps manner. There are targets for future development afforded by Flux Operator one of which is resource sets to allow for the grouping and templating of resources to reduce duplication and improve maintainability.
+Flux Operator is used for GitOps-based deployment of applications and infrastructure changes to the cluster. It continuously monitors the Git repository for changes and automatically applies them to the cluster, ensuring that the cluster is always in sync with the desired state defined in Git. Flux Operator is an advancement of the original Flux tool, providing enhanced features and capabilities for managing Kubernetes clusters in a GitOps manner. Flux ResourceSets are used for alerts and Volsync to reduce duplication and keep config tidy in one place.
 
 ### Talos
 
